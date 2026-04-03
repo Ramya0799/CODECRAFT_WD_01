@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramya Uday Nippani - Premium Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="https://www.aiet.org.in/wp-content/themes/aiet-2019/images/aiet-logo.png" alt="AIET" class="logo-img">
+                <span class="logo-text">Ramya</span>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <canvas id="canvas"></canvas>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-word">Hi,</span>
+                    <span class="title-word">I'm</span>
+                    <span class="title-word">Ramya</span>
+                    <span class="title-word">Uday</span>
+                    <span class="title-word">Nippani</span>
+                </h1>
+                <p class="hero-subtitle">Full Stack Developer | Google Student Ambassador | Intern at CODECRAFT | Intern at Microdegree | Web Enthusiast | Tech Innovator</p>
+                <p class="hero-description">Crafting beautiful, scalable digital solutions with cutting-edge technologies and innovative design thinking.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="ctaBtn">Explore My Work</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <i class="fas fa-code"></i>
+                    <p>Clean Code</p>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-paint-brush"></i>
+                    <p>Modern Design</p>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-rocket"></i>
+                    <p>Performance</p>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to discover</span>
+            <div class="scroll-icon"><i class="fas fa-chevron-down"></i></div>
+        </div>
+    </header>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="section-content">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Passionate Developer & Designer</h3>
+                    <p>I'm a Full Stack Developer with a passion for creating beautiful, functional digital experiences. With expertise in modern web technologies, I build scalable solutions that solve real-world problems.</p>
+                    <p>My journey in tech is driven by continuous learning and a commitment to excellence in every project I undertake.</p>
+                    <div class="skills-grid">
+                        <div class="skill-tag">React</div>
+                        <div class="skill-tag">JavaScript</div>
+                        <div class="skill-tag">Web Design</div>
+                        <div class="skill-tag">Node.js</div>
+                        <div class="skill-tag">MongoDB</div>
+                        <div class="skill-tag">UI/UX</div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="alvas-logo">
+                        <img src="https://www.aiet.org.in/wp-content/themes/aiet-2019/images/aiet-logo.png" alt="Alvas Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services-section">
+        <div class="section-content">
+            <div class="section-header">
+                <h2 class="section-title">Services</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building robust, scalable web applications using modern frameworks and best practices. From frontend to backend, I create comprehensive solutions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing beautiful, user-centric interfaces that enhance user experience. Every pixel is crafted with intention and purpose.</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Creating seamless experiences across all devices. Your website looks stunning on mobile, tablet, and desktop.</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Backend Solutions</h3>
+                    <p>Developing secure, scalable backend systems with efficient databases and APIs. Performance and security are paramount.</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Performance Optimization</h3>
+                    <p>Ensuring your applications run lightning-fast. Load times matter, and I optimize every aspect for speed.</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security & Best Practices</h3>
+                    <p>Implementing industry-standard security measures and coding best practices to protect your application and users.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio-section">
+        <div class="section-content">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Real-time analytics platform with interactive charts, data visualization, and custom reporting tools.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">D3.js</span>
+                            <span class="tag">REST API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>SaaS Application</h3>
+                        <p>Collaborative team management application with real-time updates, user authentication, and advanced features.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">WebSocket</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="section-content">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>ramya.nippani@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 (123) 456-7890</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Bangalore, India</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required />
+                    <input type="email" placeholder="Your Email" required />
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div id="formStatus" class="form-status"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Ramya Uday Nippani. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-codepen"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
